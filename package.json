@@ -5,20 +5,41 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --ext .js,.vue src --fix"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "d3-plugins-sankey": "^1.2.1",
+    "d3-sankey": "^0.12.3",
+    "d3.chart": "^0.3.0",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.1",
+    "vue-router": "^3.1.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "babel-eslint": "^10.0.1",
+    "d3": "^5.12.0",
+    "d3.chart.sankey": "^0.4.0",
+    "element-ui": "^2.12.0",
     "eslint": "^5.16.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "iview": "^3.5.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-i18n": "^8.14.1",
+    "vue-template-compiler": "^2.6.10",
+    "vux": "^2.9.4"
   },
   "eslintConfig": {
     "root": true,
